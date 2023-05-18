@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@600&family=Manrope&display=swap');
 :root{
     --colorWhite: #FFFFFF;
+    --colorBlack: #000000;
     --colorGreen: #44FFA1;
     --colorPurple: #24053E;
     --colorPurpleMiddle: #584D62;
     --colorPurpleLight: #FCF8FF;
-    --typographyPrimary: font-family: 'Fraunces', serif;
-    --typographySecondary: font-family: 'Manrope', sans-serif;
+    --typographyPrimary: 'Fraunces', serif;
+    --typographySecondary: 'Manrope', sans-serif;
 }
 html {
     /* Reset para rems 62.5% = 10px */
@@ -17,4 +18,45 @@ html {
   *::before,
   *::after {
     box-sizing: inherit;
+}
+/* Estilos generales */
+a{
+    text-decoration: none;
+}
+body{
+    font-family: var(--typographyPrimary);
+
+}
+.main{
+    background-color: var(--colorPurple);
+    border-radius: 0 0 5rem 5rem;
+    background-image: url(../assets/images/bg-pattern-1.svg);
+    background-image: url(../assets/images/bg-pattern-2.svg);
+    width: 100%;
+    height: 100%;
+}
+.title{
+    width: 63.5rem;
+    height: 25.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.title__h1 h1{
+    font-family: var(--typographyPrimary);
+    font-size: 8rem;
+    font-weight: 600;
+    color: var(--colorWhite);
+}
+.title__btn{
+    width: 16.1rem;
+    height: 6.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title__btn a{
+    font-size: 1.8rem;
+    color: var(--colorBlack);
 }
