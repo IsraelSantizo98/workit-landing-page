@@ -30,24 +30,47 @@ body{
 .main{
     background-color: var(--colorPurple);
     border-radius: 0 0 5rem 5rem;
-    background-image: url(../assets/images/bg-pattern-1.svg);
-    background-image: url(../assets/images/bg-pattern-2.svg);
     width: 100%;
     height: 100%;
 }
+.navbar__header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar__nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 85%;
+}
+.navbar__ul li a{
+    font-family: var(--typographySecondary);
+    font-size: 1.8rem;
+    color: var(--colorWhite);
+    border-bottom: 0.3rem solid var(--colorGreen);
+}
 .title{
-    width: 63.5rem;
-    height: 25.8rem;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+.title__h1{
+    width: 63.5rem;
+    height: 25.8rem;
+    margin-bottom: 3rem;
 }
 .title__h1 h1{
     font-family: var(--typographyPrimary);
     font-size: 8rem;
     font-weight: 600;
     color: var(--colorWhite);
+    text-align: center;
+}
+.title__span{
+    border-bottom: 0.3rem solid var(--colorGreen);
 }
 .title__btn{
     width: 16.1rem;
@@ -55,8 +78,11 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: var(--colorGreen);
 }
 .title__btn a{
+    font-family: var(--typographySecondary);
+    font-weight: 600;
     font-size: 1.8rem;
     color: var(--colorBlack);
 }
