@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@600&family=Manrope&display=swap');
+:root{
+    --colorWhite: #FFFFFF;
+    --colorGreen: #44FFA1;
+    --colorPurple: #24053E;
+    --colorPurpleMiddle: #584D62;
+    --colorPurpleLight: #FCF8FF;
+    --typographyPrimary: font-family: 'Fraunces', serif;
+    --typographySecondary: font-family: 'Manrope', sans-serif;
+}
