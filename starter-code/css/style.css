@@ -23,6 +23,9 @@ html {
 a{
     text-decoration: none;
 }
+img{
+    width: 100%;
+}
 body{
     font-family: var(--typographyPrimary);
 
@@ -85,4 +88,8 @@ body{
     font-weight: 600;
     font-size: 1.8rem;
     color: var(--colorBlack);
+}
+.title__image{
+    width: 76.7rem;
+    height: 44.1rem;
 }
